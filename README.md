@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:12-03-2025
+## Register Number:212224100038
+## Name:D. MUKESH RAJ
 ## Problem Title
 SIH 1653: Web based Selector-Applicant Simulation Software
 ## Problem Description
@@ -11,16 +11,48 @@ Background: Recruitment and Assessment Centre (RAC) under DRDO, Ministry of Defe
 Ministry of Defence
 
 ## Idea
+1.Leveling of questions: The application must be thought to ask from ice breaking questions to talent identification questions.
 
+2.Data collection: The data collection must be based on a persons previous experiences, educational qualifications and skills to make it more unbiased.
+
+3.Accurte response identification: While capturing responses keywords and ideas must be identified correctly.
+
+4.Appropriate grading: A score ranging from 1-10 must be given for each response.
+
+5.Acceptibility: When the score reaches above the given criteria, the candidate should be accepted and data should be stored to review later.
 
 ## Proposed Solution / Architecture Diagram
+![421922030-b2d39b85-8702-426b-aee1-196c18d8e952](https://github.com/user-attachments/assets/506ce717-4aaa-42bc-aed2-6d6beabaa40e)
 
 
 ## Use Cases
 
+![421923292-7687fad1-1495-4b45-b70b-01e553fc20c5](https://github.com/user-attachments/assets/80038244-6c17-433f-903f-ba1c550caad6)
 
 ## Technology Stack
+Frontend : React.js, Angular, HTML, CSS, Bootstrap
 
+Backend : Node.js (Express) / Django (Python)
+
+Database : PostgreSQL / MongoDB
+
+Authentication : OAuth 2.0, JWT
+
+AI/ML Models : Python (Scikit-learn, TensorFlow)
+
+Cloud & Storage : AWS S3 / Firebase Storage
+
+Testing & CI/CD : Jest, Cypress, Docker, GitHub Actions
 
 ## Dependencies
+Cloud Services (AWS, GCP, or Firebase for hosting & storage).
+
+AI/ML Models for applicant ranking and evaluation.
+
+Database for storing applicant & selector data.
+
+Authentication Providers (Google OAuth, LinkedIn, etc.).
+
+Third-party APIs (for resume parsing, NLP-based applicant profiling).
+
 
